@@ -24,7 +24,7 @@ private Item[] store =
 public int linearSearch(int catNumToFind)
 {
   for(int i = 0; i < store.length; i += 1){
-    if(store[i] == target){
+    if(store[i] == catNumToFind){
       return catNumToFind;
     }
   }
